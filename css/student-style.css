@@ -1,0 +1,166 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+    color: #0A0A0A;
+}
+
+.container{
+/*     width: 1200px; */
+    margin: 60px 15px;
+}
+
+/* student-aside-part */
+.student-aside-part .container{
+    width: 227px;
+    border-radius: 15px;
+    border: 1px solid #9A9A9A;
+    background: #FDFDFD;
+    margin-left: 100px;
+}
+
+.student-account{
+    padding: 37px 33px;
+}
+
+.fuction-aside-part ul li{padding: 15px 0 15px 54px;}
+.fuction-aside-part ul li:last-child{
+    margin: 114px 0 37px 0;
+    background: rgba(255, 166, 166, 0.31);
+}
+
+.fuction-aside-part ul li:last-child:active{
+    background: #FF2F2F;
+}
+
+.fuction-aside-part ul li a{
+     
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A0A0A;
+    line-height: normal;
+}
+
+.fuction-aside-part ul li:active,.fuction-aside-part ul li a:active{
+    background: #007E2B;
+    color: #EDEDED;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fuction-aside-part ul li  a:last-child:active{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.student-profile-page{display: flex;}
+
+.student-mid-pt-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 208px); /* Две колонки */
+    grid-template-rows: repeat(2, 100px ); /* Две строки */
+    grid-gap: 30px;  /* Расстояние между элементами */
+    margin-bottom: 45px;
+}
+
+.student-mid-pt-grid a{
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+     
+}
+
+#student-to-univer{background-color: #4F8BFF;}
+#student-to-news{background-color: #007E2B;}
+#student-to-likes{background-color: #FF4F8E;}
+#student-to-mentors{background-color: #FF7222;}
+
+.student-profile-last-part{
+    text-align: center; /* Центрирование по горизонтали */
+}
+
+/* student-settings */
+.choose-settings-part {margin-bottom: 40px;}
+.choose-settings-part a{
+    border-radius: 10px;
+    border: 3px solid #007E2B;
+    background: #FDFDFD;
+    padding: 11px 32px;
+    align-items: center;
+     
+    color: #007E2B;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.choose-settings-part a:hover{
+    background: #007E2B;
+    color: #FDFDFD;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.student-edit-main-info{margin: 40px 0 40px 0;}
+
+.student-edit-photo h1, .student-edit-main-info h1, .student-edit-about h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 14px;
+}
+
+.student-edit-photo input,
+.student-edit-main-info input,
+.student-edit-about input{
+    width: 231px;
+    padding: 12px 0 12px 18px;
+    border-radius: 5px;
+    border: 2px solid #60815D;
+
+    color: rgba(5, 61, 0, 0.50);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.student-edit-photo input{
+    margin-bottom: 15px;
+}
+
+.student-edit-photo input:last-child{margin-right: none;}
+
+.student-edit-main-info div{
+    display: grid;
+    grid-template-columns: repeat(2, 231px); /* Две колонки */
+    grid-template-rows: repeat(2, 38px ); /* Две строки */
+    grid-gap: 14px; 
+}
+
+.student-edit-about input{
+    width: 519px;
+    height: 89px;
+}
+
+.choose-edit-part{
+    border: 1px solid #9A9A9A;
+    background-color: #FDFDFD;
+    border-radius: 15px;
+    padding: 30px 210px 30px 45px;
+}
+
+.edit-photo-part{
+    display: flex;
+}
+
+.edit-photo-part img{margin-right: 80px;}

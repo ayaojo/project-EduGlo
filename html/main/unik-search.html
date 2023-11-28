@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGlo</title>
+    <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="head-logo">
+                <a href="./index.html">
+                    <img src="/images/logo-new.svg" alt="logo EduGlo">
+                </a>
+            </div>
+            <div class="head-nav">
+                <ul>
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="./calendar.html">Календарь</a></li>
+                    <li><a href="./unik-search.html">Университеты</a></li>
+                    <li><a href="./services.html">Услуги</a></li>
+                    <li><a href="./about-us.html">О нас</a></li>
+                </ul>
+            </div>
+            <div class="head-btn">
+                <a href="./sign-up.html">Войти</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="search-bar">
+        <div class="container">
+            <hr>
+            <div class="search-bar-info">
+                <img src="/images/search.svg" alt="search icon">
+                <input type="text" name="" id="find" placeholder="Найти университеты">
+                <a href="#">Поиск</a>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <div class="university-choose-part">
+        <div class="container">
+            <div class="filter">
+                <h1>Фильтр</h1>
+
+                <article class="filter-group">
+                    <h2>Страны</h2>
+                    <div class="select-wrapper">
+                        <select name="country-choose" id="" class="country-choose">
+                            <option value="1">Все страны</option>
+                            <option value="1">США</option>
+                            <option value="2">Великобритания</option>
+                            <option value="3">Австралия</option>
+                            <option value="4">Япония</option>
+                            <option value="5">Латинская Америка</option>
+                        </select>
+                    </div>
+                </article>
+
+                <article class="filter-group">
+                    <h2>Города</h2>
+                    <div class="select-wrapper">
+                        <select name="country-choose" id="" class="country-choose">
+                            <option value="1">Все города</option>
+                            <option value="2">Кембридж</option>
+                            <option value="3">Бостон</option>
+                            <option value="4">Лондон</option>
+                            <option value="5">Сеул</option>
+                            <option value="6">Токио</option>
+                        </select>
+                    </div>
+                </article>
+
+                <hr>
+                <!--
+                <article class="filter-group">
+                    <h2>Стоимость, USD</h2>
+                </article> 
+                -->
+                <article class="filter-group-radio">
+                    <h2>Для</h2>
+                    <div>
+                        <input type="radio" name="radioGroup" value="1" id="bachelor"><label for="bachelor">Бакалавр</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioGroup" value="2" id="master"><label for="master">Магистр</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radioGroup" value="3" id="doctorate"><label for="doctorate">Докторантура</label>
+                    </div>
+                    
+                </article>
+
+                <hr>
+
+                <article class="filter-group">
+                    <h2>Тип</h2>
+                    <div class="select-wrapper">
+                        <select name="country-choose" id="" class="country-choose">
+                            <option value="1">Любой</option>
+                            <option value="2">Частный</option>
+                            <option value="3">Государственный</option>
+                        </select>
+                    </div>
+                </article>
+
+                <article class="filter-group">
+                    <h2>Гендерные ограничения</h2>
+                    <div class="select-wrapper">
+                        <select name="country-choose" id="" class="country-choose">
+                            <option value="1">Любой</option>
+                            <option value="2">Только женщины</option>
+                            <option value="3">Только мужчины</option>
+                        </select>
+                    </div>
+                </article>
+
+                <article class="filter-group-checkbox">
+                    <div><input type="checkbox" id="myCheckbox1" name="checkbox1" value="value1"> <label for="myCheckbox1">Общежитие</label></div>
+                    <div><input type="checkbox" id="myCheckbox2" name="checkbox2" value="value2"> <label for="myCheckbox2">Финансовая помощь</label></div>
+                    <div><input type="checkbox" id="myCheckbox3" name="checkbox3" value="value3"> <label for="myCheckbox3">Программы обмена</label></div>
+                    <div><input type="checkbox" id="myCheckbox4" name="checkbox4" value="value4"> <label for="myCheckbox4">Спортивные сооружения</label></div>
+                    <div><input type="checkbox" id="myCheckbox5" name="checkbox5" value="value5"> <label for="myCheckbox5">Дистанционное образование</label></div>
+                    <div><input type="checkbox" id="myCheckbox6" name="checkbox6" value="value6"> <label for="myCheckbox6">Иностранцы</label></div>
+                </article>
+            </div>
+
+            <div class="about-university-cards">
+                <section class="university-mini-card">
+                    <article>
+                        <h1><a href="./university-card.html">Гарвардский университет</a></h1>
+                        <h3>США, Кембридж</h3>
+                        <aside>
+                            <div class="bachelor-card">
+                                <h2>Бакалавриат</h2>
+                                <div class="bachelor-card-price">
+                                    <div class="bachelor-card-price-start">
+                                        <p>от</p> <p>7918 USD</p>
+                                    </div>
+                                    <div class="bachelor-card-price-end">
+                                        <p>до</p> <p>52 645 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="master-card">
+                                <h2>Магистратура</h2>
+                                <div class="master-card-price">
+                                    <div class="master-card-price-start">
+                                        <p>от</p> <p>7748 USD</p>
+                                    </div>
+                                    <div class="master-card-price-end">
+                                        <p>до</p> <p>73 420 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="more-about-university">
+                            <a href="./university-card.html" class="univ-card-btn">Подробнее</a>
+                        </aside>
+                    </article>
+                </section>
+    
+                <section class="university-mini-card">
+                    <article>
+                        <h1>Массачусетский технологический институт</h1>
+                        <h3>США, Бостон</h3>
+                        <aside>
+                            <div class="bachelor-card">
+                                <h2>Бакалавриат</h2>
+                                <div class="bachelor-card-price">
+                                    <div class="bachelor-card-price-start">
+                                        <p>от</p> <p>58 224 USD</p>
+                                    </div>
+                                    <div class="bachelor-card-price-end">
+                                        <p>до</p> <p>58 224 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="master-card">
+                                <h2>Магистратура</h2>
+                                <div class="master-card-price">
+                                    <div class="master-card-price-start">
+                                        <p>от</p> <p>58 224 USD</p>
+                                    </div>
+                                    <div class="master-card-price-end">
+                                        <p>до</p> <p>58 224 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="more-about-university">
+                            <a href="#" class="univ-card-btn">Подробнее</a>
+                        </aside>
+                    </article>
+                </section>
+    
+                <section class="university-mini-card">
+                    <article>
+                        <h1>Стэнфордский университет</h1>
+                        <h3>США, Стэнфорд</h3>
+                        <aside>
+                            <div class="bachelor-card">
+                                <h2>Бакалавриат</h2>
+                                <div class="bachelor-card-price">
+                                    <div class="bachelor-card-price-start">
+                                        <p>от</p> <p>57 678 USD</p>
+                                    </div>
+                                    <div class="bachelor-card-price-end">
+                                        <p>до</p> <p>57 678 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="master-card">
+                                <h2>Магистратура</h2>
+                                <div class="master-card-price">
+                                    <div class="master-card-price-start">
+                                        <p>от</p> <p>56 472 USD</p>
+                                    </div>
+                                    <div class="master-card-price-end">
+                                        <p>до</p> <p>76 929 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="more-about-university">
+                            <a href="#" class="univ-card-btn">Подробнее</a>
+                        </aside>
+                    </article>
+                </section>
+    
+                <section class="university-mini-card">
+                    <article>
+                        <h1>Кембриджский университет</h1>
+                        <h3>Великобритания, Кембридж</h3>
+                        <aside>
+                            <div class="bachelor-card">
+                                <h2>Бакалавриат</h2>
+                                <div class="bachelor-card-price">
+                                    <div class="bachelor-card-price-start">
+                                        <p>от</p> <p>28 493 USD</p>
+                                    </div>
+                                    <div class="bachelor-card-price-end">
+                                        <p>до</p> <p>37 290 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="master-card">
+                                <h2>Магистратура</h2>
+                                <div class="master-card-price">
+                                    <div class="master-card-price-start">
+                                        <p>от</p> <p>15 264 USD</p>
+                                    </div>
+                                    <div class="master-card-price-end">
+                                        <p>до</p> <p>55 538 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="more-about-university">
+                            <a href="#" class="univ-card-btn">Подробнее</a>
+                        </aside>
+                    </article>
+                </section>
+    
+                <section class="university-mini-card">
+                    <article>
+                        <h1>Калифорнийский технологический институт</h1>
+                        <h3>США, Пасадена</h3>
+                        <aside>
+                            <div class="bachelor-card">
+                                <h2>Бакалавриат</h2>
+                                <div class="bachelor-card-price">
+                                    <div class="bachelor-card-price-start">
+                                        <p>от</p> <p>48 098 USD</p>
+                                    </div>
+                                    <div class="bachelor-card-price-end">
+                                        <p>до</p> <p>48 098 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="master-card">
+                                <h2>Магистратура</h2>
+                                <div class="master-card-price">
+                                    <div class="master-card-price-start">
+                                        <p>от</p> <p>48 098 USD</p>
+                                    </div>
+                                    <div class="master-card-price-end">
+                                        <p>до</p> <p>48 098 USD</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="more-about-university">
+                            <a href="#" class="univ-card-btn">Подробнее</a>
+                        </aside>
+                    </article>
+                </section>
+            </div>
+
+        </div>    
+    </div>
+
+    <footer>
+        <div class="container">
+            <article class="footer-1">
+                <ul>
+                    <li><img src="/images/logo-white ver-new.svg" alt="logo white ver"></li>
+                    <li><a href="#">+7 (7172) 47 66 77</a></li>
+                    <li><a href="#">info@eduglo.kz</a></li>
+                    <li><a href="#">Казахстан, г. Астана, проспект Кабанбай батыра, 8</a></li>
+                    <div class="social-media">
+                        <li><a href="#"><img src="/images/telegram.svg" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/aiu_astana/"><img src="/images/instagram.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/images/youtube.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/images/vk.svg" alt=""></a></li>
+                    </div>
+                </ul>
+            </article>
+
+            <article class="footer-1">
+                <ul>
+                    <li><h1>Компания</h1></li>
+                    <li><a href="./about-us.html">О нас</a></li>
+                    <li><a href="#">Вопросы</a></li>
+                    <li><a href="./services.html">Услиги</a></li>
+                </ul>
+            </article>
+
+            <article class="footer-1">
+                <ul>
+                    <li><h1>Страны</h1></li>
+                    <li><a href="#">США</a></li>
+                    <li><a href="#">Великобритания</a></li>
+                    <li><a href="#">Китай</a></li>
+                    <li><a href="#">Япония</a></li>
+                    <li><a href="#">Южная Корея</a></li>
+                </ul>
+            </article>
+
+            <article class="footer-1">
+                <ul>
+                    <li><h1>Разделы</h1></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="./unik-search.html">Страны</a></li>
+                    <li><a href="./unik-search.html">Университеты</a></li>
+                </ul>
+            </article>
+        </div>
+    </footer>
+
+</body>
+</html>
