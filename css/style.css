@@ -1720,3 +1720,98 @@ footer .container{
     list-style-position: inside;
 }
 
+/* more info aboout service */
+.mini-header-for-info-services{
+    background-color: #4A5459;
+    color: #f8f8f8;
+    padding: 25px;
+}
+
+.mini-header-for-info-services{
+    margin-bottom: 70px;
+}
+
+.mini-header-for-info-services .container h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.mini-header-for-info-services .container h3{
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+}
+
+.work-process .container{margin-bottom: 100px;}
+.work-process .container h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.steps-of-work{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.steps-of-work-info{
+    margin-left: 15px;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.steps-of-work-info h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.steps-of-work-info ul{
+    list-style: inside;
+    font-size: 14px;
+    line-height: normal;
+}
+
+/*  */
+
+.about-cost-blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.about-cost-blocks-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.cost-blocks-main h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cost-blocks{
+    border-radius: 15px;
+    border: 1px solid #D9D9D9;
+    background: rgba(238, 238, 238, 0.93);
+    padding: 15px 24px;
+}
+
+.cost-blocks h3{    
+    font-size: 14px;
+    margin-bottom: 26px;
+    line-height: normal;
+}
+
+.cost-blocks h4{
+    font-size: 20px;
+    font-weight: 600;
+}
