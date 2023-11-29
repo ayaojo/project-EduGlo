@@ -7,6 +7,10 @@ body{
 
 nav{    padding: 44px 60px;}
 
+.head-nav .active{
+    color: #1e860c;
+} 
+
 .container{
     width: 1160px;
     margin: 0 auto;
