@@ -1004,7 +1004,9 @@ footer .container{
     letter-spacing: 0.28px;
 }
 
-.services-price-btn a:hover,.services-edit-documents-btn:hover,
+.services-edit-documents-btn .more-info-about-service{margin-left: 50px;}
+
+.services-price-btn a:hover,.services-edit-documents-btn a:hover,
 .services-secondary-btn a:hover{   color: #6b7aff;}
 
 #to-consylt-form{
@@ -1790,7 +1792,7 @@ footer .container{
 .about-cost-blocks-2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    column-gap: 25px;
 }
 
 .cost-blocks-main h2{
@@ -1807,9 +1809,23 @@ footer .container{
 
 .cost-blocks h3{    
     font-size: 14px;
-    margin-bottom: 26px;
+    font-weight: 700;
     line-height: normal;
 }
+
+.cost-blocks.serivces-1 h3{font-weight: 400;}
+.serivces-1-subt-1{margin-bottom: 31px;}
+.serivces-1-subt-2{margin-bottom: 10px;}
+
+.cost-blocks .cost-blocks-pack-1,.cost-blocks .cost-blocks-pack-2,
+.cost-blocks .cost-blocks-pack-3{
+    font-size: 14px;
+    line-height: normal;
+    margin: 6px 0 20px;
+}
+
+.cost-blocks .cost-blocks-pack-2{margin-bottom: 83px;}
+.cost-blocks .cost-blocks-pack-1{margin-bottom: 124px;}
 
 .cost-blocks h4{
     font-size: 20px;
