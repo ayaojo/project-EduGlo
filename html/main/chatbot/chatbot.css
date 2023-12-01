@@ -175,9 +175,14 @@
   
   /* bot */
   .chatbot__content_bot {
-    color: #212529;
+    color: #020202;
     background: #eaeaea;
     border-radius: 0.5rem;
+  }
+
+  .chatbot__content_bot a{
+    text-decoration: underline;
+    color:#0d9412;
   }
   
   /* human */
