@@ -501,9 +501,7 @@ footer .container{
 }
 
 .filter-group-checkbox div,
-.filter-group-radio div{
-    margin-bottom: 6px;
-}
+.filter-group-radio div{margin-bottom: 6px;}
 
 /* university-mini-card */
 .university-choose-part .container, 
@@ -513,13 +511,8 @@ footer .container{
     flex-direction: row;
 }
 
-.about-university-cards section{
-    margin-bottom: 46px;
-}
-
-.about-university-cards section:last-child{
-    margin-bottom: 110px;
-}
+.about-university-cards section{margin-bottom: 46px;}
+.about-university-cards section:last-child{margin-bottom: 110px;}
 
 .university-mini-card{
     width:750px;
@@ -529,14 +522,9 @@ footer .container{
     border-radius: 15px;
 }
 
-.university-mini-card h1 a{
-     
-    color: #0A0A0A;
-}
+.university-mini-card h1 a{ color: #0A0A0A;}
 
-.university-mini-card article{
-    padding: 25px 32px;
-}
+.university-mini-card article{padding: 25px 32px;}
 
 .university-mini-card h1,.bachelor-card h2, .master-card h2{
     font-size: 20px;
@@ -574,7 +562,6 @@ footer .container{
 }
 
 .bachelor-card-price-end,.master-card-price-end{margin-top: 8px;}
-
 .bachelor-card,.master-card{margin-right: 50px;}
 
 .more-about-university{
@@ -625,9 +612,7 @@ footer .container{
     margin-bottom: 5px;
 }
 
-.consult-take-steps ul li img{
-    margin-right: 20px;
-}
+.consult-take-steps ul li img{margin-right: 20px;}
 
 .list-of-consult {
     display: flex;
@@ -668,9 +653,7 @@ footer .container{
     border-radius: 50%; /* Делаем круглым */
 }
 
-#Choice1,#Choice2,#Choice3,#Choice4,#Choice5,#Choice6:checked{
-    background-color: red; /* Цвет круга в выбранном состоянии */
-  }
+#Choice1,#Choice2,#Choice3,#Choice4,#Choice5,#Choice6:checked{background-color: red; /* Цвет круга в выбранном состоянии */}
 
 #Choice1{margin-left: 128px;}
 #Choice2{margin-left: 170px;}
@@ -684,7 +667,6 @@ footer .container{
     font-weight: 700;
     color:#EEEEEE;
     background-color: #2B2B2B;
-     
     padding: 6px 12px;
     border-radius: 8px;
     width: 101px;
@@ -699,7 +681,6 @@ footer .container{
 .send-consult-form{
     font-weight: 700;
     font-size:14px;
-     
     color: #EEEEEE;
     background-color: #86C232;
     border-radius: 8px;
@@ -731,7 +712,6 @@ footer .container{
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
-     
     margin-right: 15px;
 }
 
@@ -763,10 +743,7 @@ footer .container{
 }
 
 /* about us */
-.mini-header-for-leave-contacts{
-    /* background-image: url(/images/header-bg.svg); */
-    background-color: #4A5459;
-}
+.mini-header-for-leave-contacts{background-color: #4A5459;}
 
 .mini-header-for-leave-contacts div{
     padding-bottom: 60px;
@@ -790,7 +767,6 @@ footer .container{
 .mini-header-for-leave-contacts a{
     font-weight: 700;
     font-size:14px;
-     
     color: #EEEEEE;
     background-color: #86C232;
     border-radius: 8px;
@@ -830,25 +806,21 @@ footer .container{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-
     margin-bottom: 10px;
 }
 
 .about-do-title h3{
-     
     font-weight: 600;
     font-size: 16px;
 }
 
 .advatages-blocks-main h1{
-     
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 .advatages-blocks-main h2{
-     
     font-weight: 400;
     font-size: 18px;
 }
@@ -880,7 +852,6 @@ footer .container{
 }
 
 #about-faq h1, .about-mini-consulting-form h1{
-     
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 20px;
@@ -923,7 +894,6 @@ footer .container{
 }
 
 .about-mini-consulting-form .container{ text-align: center;}
-
 .about-mini-consulting-form h1{letter-spacing: 0.5px;}
 .about-mini-consulting-form h2{
     text-align: center;
@@ -1198,7 +1168,6 @@ footer .container{
 }
 
 #secondary-to-consylt-form{margin: 0 310px 0 50px;}
-
 .services-edit-documents .container,
 .services-edit-documents-right{display: flex;}
 
@@ -1245,7 +1214,6 @@ footer .container{
 }
 
 .edit-recomend-letter-info:last-child{margin-bottom: 0px;}
-
 .services-edit-documents .container{padding: 21px 40px}
 
 .edit-letter-price{
@@ -1372,7 +1340,6 @@ footer .container{
     font-weight: 600;
     line-height: normal;
     margin-bottom: 41px;
-
 }
 
 .sign-up-btn, .log-in-btn, .forget-password-btn{
@@ -1424,7 +1391,6 @@ footer .container{
 }
 
 .sign-up-checkbox{  display: flex;}
-
 .sign-up-checkbox div{  margin-right: 136px;}
 
 .sign-up-checkbox div a{
@@ -1492,7 +1458,6 @@ footer .container{
 }
 
 .university-card-main-info-right .container{    display: flex;}
-
 #univ-history, #univ-rating, #univ-cost,#univ-proggram,#univ-admission,
 #univ-educat,#univ-grants{margin-bottom: 31px;}
 
