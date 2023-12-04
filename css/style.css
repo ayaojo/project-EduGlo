@@ -54,6 +54,31 @@ hr{
     margin-right: auto;
 }
 
+.dropdown-container{
+    position: relative;
+}
+
+.dropdown-container:hover .dropdown-menu{
+    display: flex;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background-color: #DDE9CC;
+    display: none;
+}
+
+.dropdown-menu a{
+    padding: 10px 12px;
+    border-bottom: 1px solid #1e860c;
+    text-wrap: nowrap;
+    color: #1e860c;
+    font-size: 14px;
+}
+
 .head-btn a, .search-bar a{
     font-weight: 700;
     font-size:14px;
@@ -1226,10 +1251,10 @@ footer .container{
 }
 
 /* list of mentors */
-.mini-header-for-mentor{
+.mini-header-for-mentor{background-color: #4A5459;}
+.mini-header-for-mentor h3{
     padding: 33px 20px;
     margin-bottom: 30px;
-    background-color: #4A5459;
     color: #FFFFFF;
     text-align: center;
     font-size: 17px;
