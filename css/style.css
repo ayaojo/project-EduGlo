@@ -741,24 +741,24 @@ footer .container{
 }
 
 /* log in */
-.log-in-form h1{
+.login-form h1{
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 41px;
 }
 
-.log-in-form input, .log-in-forg-pass{
+.login-form input, .login-forg-pass{
     font-size: 16px;
     font-weight: 400;
     color:#A1A1A1;
 } 
 
-.log-in-right-coloumn form{
+.login-right-coloumn form{
     display: flex;
     align-items: center;
 }
 
-.log-in-btn{
+.login-btn{
     font-size: 16px;
     font-weight: 700;
     padding: 11px 25px;
@@ -1336,30 +1336,30 @@ footer .container{
     background-color: #D9D9D9;
 }
 
-/* log-in sign-up form*/
-.sign-up-page .container, .log-in-page .container,
+/* login register form*/
+.register-page .container, .login-page .container,
 .forget-password-page .container {
     width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     background-color: #336133;
-    background-image: url(/images/log-in-bg.svg);
+    background-image: url(/images/login-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
 }
 
-.log-in-page .container, .forget-password-page .container{height: 877px;}
+.login-page .container, .forget-password-page .container{height: 877px;}
 
-.container-for-sign-up,.container-for-log-in,
+.container-for-register,.container-for-login,
 .container-for-forget-password{
     border-radius: 76px 0px 0px 76px;
     background: #EEE;
     padding: 142px 100px 112px;
 }
 
-.container-for-sign-up h1,.container-for-log-in h1,
+.container-for-register h1,.container-for-login h1,
 .container-for-forget-password h1{
     font-size: 36px;
     font-weight: 600;
@@ -1367,7 +1367,7 @@ footer .container{
     margin-bottom: 41px;
 }
 
-.sign-up-btn, .log-in-btn, .forget-password-btn{
+.register-btn, .login-btn, .forget-password-btn{
     border-radius: 8px;
     border: 0px;
     background: #86C232;
@@ -1381,7 +1381,7 @@ footer .container{
     margin: 30px auto;
 }
 
-.container-for-sign-up b, .container-for-log-in b, 
+.container-for-register b, .container-for-login b, 
 .container-for-forget-password b{
     color: #A1A1A1;
     font-size: 16px;
@@ -1390,7 +1390,7 @@ footer .container{
     text-transform: uppercase;
 }
 
-.sign-up-social{    margin: 32px auto;}
+.register-social{    margin: 32px auto;}
 
 .container form{
     display: flex;
@@ -1400,7 +1400,7 @@ footer .container{
     height: 100%;
 }
 
-.sign-up-input, .container-for-log-in input,
+.register-input, .container-for-login input,
 .container-for-forget-password input{
     background-color: #EEEEEE;
     border-radius: 10px;
@@ -1415,10 +1415,10 @@ footer .container{
     line-height: normal;
 }
 
-.sign-up-checkbox{  display: flex;}
-.sign-up-checkbox div{  margin-right: 136px;}
+.register-checkbox{  display: flex;}
+.register-checkbox div{  margin-right: 136px;}
 
-.sign-up-checkbox div a{
+.register-checkbox div a{
     color: #353535;
     font-size: 14px;
     font-weight: 500;
