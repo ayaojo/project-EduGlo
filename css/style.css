@@ -1344,7 +1344,7 @@ footer .container{
     display: flex;
     justify-content: space-between;
     background-color: #336133;
-    background-image: url(/images/login-bg.svg);
+    background-image: url(/images/log-in-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
