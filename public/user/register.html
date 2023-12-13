@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGlo</title>
+    <link rel="shortcut icon" href="/images/logo-new.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main class="register-page">
+        <div class="container">
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggel-panel-left">
+                        <a href="../home/index.html"><img src="../images/logo-sign-up.svg" alt="logo"></a>
+                        <h1>Ваш путеводитель в мир образования за границей</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-for-register">
+                <h1>РЕГИСТРАЦИЯ</h1>
+
+                <form id="registrationForm">
+                    <input type="email" id="email" name="email" placeholder="Электронная почта" class="register-input"
+                        autocomplete="username">
+
+                    <input type="password" id="password" name="password" placeholder="Пароль" class="register-input"
+                        autocomplete="current-password">
+
+                        <button type="button" onclick="registerUser()">Зарегистрироваться</button>
+
+                    <b>или</b>
+
+                    <div class="register-social">
+                        <a href="#" class="register-social-icon"><img src="../images/sign-up-google.svg"
+                                alt="google"></a>
+                    </div>
+
+                    <span>Уже есть аккаунт? <a href="./login.html"> Войти</a></span>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="registration.js"></script>
+
+</body>
+
+</html>
