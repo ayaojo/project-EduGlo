@@ -19,31 +19,35 @@
                 <div class="toggle">
                     <div class="toggel-panel-left">
                         <a href="../home/index.html"><img src="../images/logo-sign-up.svg" alt="logo"></a>
-                        <h1>Рады встретить вас снова!</h1>
+                        <h1></h1>
                     </div>
                 </div>
             </div>
 
+            <div class="alert-box">
+                <p class="alert"></p>
+            </div>
+
             <div class="container-for-login">
+
                 <form>
                     <h1>Личный кабинет</h1>
     
-                    <input type="email" placeholder="Электронная почта">
-                    <input type="password" placeholder="Пароль">
+                    <input type="email"  placeholder="email" autocomplete="off" class="email" required>
+                    <input type="password" placeholder="password" autocomplete="off" class="password" required>
                     <a href="./forget-password.html">Забыли пароль?</a>
 
-                    <a href="#" class="login-btn">Войти</a>
+                   <button class="submit-btn">login</button>
     
                     <b>или</b>
     
-                    <div class="register-social">
-                        <a href="#" class="register-social-icon"><img src="../images/sign-up-google.svg" alt="google"></a>
-                    </div>
-    
-                    <span>Ещё не зарегистрированы? <a href="./register.html">Регистрация</a></span>
+                    <a href="/user/register">Ещё не зарегистрированы? Регистрация</a>
                 </form>
+
             </div>
         </div>
     </main>
+
+    <script src="../js/form.js"></script>
 </body>
 </html>
