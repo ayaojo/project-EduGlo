@@ -7,8 +7,7 @@ body{
 }
 
 .container{
-/*     width: 1200px; */
-    margin: 60px 15px;
+    margin: 60px 31px;
 }
 
 /* student-aside-part */
@@ -24,14 +23,35 @@ body{
     padding: 37px 33px;
 }
 
+.student-account .greeting{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
 .fuction-aside-part ul li{padding: 15px 0 15px 54px;}
 .fuction-aside-part ul li:last-child{
     margin: 114px 0 37px 0;
     background: rgba(255, 166, 166, 0.31);
 }
 
-.fuction-aside-part ul li:last-child:active{
-    background: #FF2F2F;
+.exit-btn{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.logout{
+    border: none;
+    color: #FF2F2F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: none;
+    cursor: pointer;
 }
 
 .fuction-aside-part ul li a{
@@ -57,7 +77,11 @@ body{
     line-height: normal;
 }
 
-.student-profile-page{display: flex;}
+.student-profile-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .student-mid-pt-grid{
     display: grid;
