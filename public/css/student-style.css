@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #0A0A0A;
+}
+
 a{text-decoration: none;}
 
 body{
@@ -30,12 +37,6 @@ body{
     margin-top: 15px;
 }
 
-.fuction-aside-part ul li{padding: 15px 0 15px 54px;}
-.fuction-aside-part ul li:last-child{
-    margin: 114px 0 37px 0;
-    background: rgba(255, 166, 166, 0.31);
-}
-
 .exit-btn{
     display: flex;
     align-items: center;
@@ -54,28 +55,30 @@ body{
     cursor: pointer;
 }
 
+.fuction-aside-part ul li:last-child{
+    margin: 114px 0 37px 0;
+    background: rgba(255, 166, 166, 0.31);
+    padding: 15px 0 15px 54px;
+    display: block;
+}
+
 .fuction-aside-part ul li a{
-     
     font-size: 16px;
     font-weight: 400;
     color: #0A0A0A;
     line-height: normal;
+    padding: 15px 0 15px 54px;
+    display: block;
 }
 
-.fuction-aside-part ul li:active,.fuction-aside-part ul li a:active{
+ .fuction-aside-part ul li:hover a{
     background: #007E2B;
     color: #EDEDED;
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
-}
-
-.fuction-aside-part ul li  a:last-child:active{
-    color: #FFF;
-    font-size: 16px;
     font-weight: 400;
-    line-height: normal;
-}
+} 
 
 .student-profile-page{
     display: flex;
@@ -83,9 +86,15 @@ body{
     justify-content: center;
 }
 
+.student-profile-middle-part .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .student-mid-pt-grid{
     display: grid;
-    grid-template-columns: repeat(2, 208px); /* Две колонки */
+    grid-template-columns: repeat(2, 230px); /* Две колонки */
     grid-template-rows: repeat(2, 100px ); /* Две строки */
     grid-gap: 30px;  /* Расстояние между элементами */
     margin-bottom: 45px;
@@ -97,13 +106,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-align: center;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-     
 }
 
 #student-to-univer{background-color: #4F8BFF;}
@@ -116,14 +124,24 @@ body{
 }
 
 /* student-settings */
-.choose-settings-part {margin-bottom: 40px;}
+.student-settings .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-settings-part {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 30px;
+}
+
 .choose-settings-part a{
     border-radius: 10px;
     border: 3px solid #007E2B;
     background: #FDFDFD;
     padding: 11px 32px;
     align-items: center;
-     
     color: #007E2B;
     font-size: 16px;
     font-weight: 600;

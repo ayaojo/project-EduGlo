@@ -1571,6 +1571,11 @@ footer .container {
     padding: 16px;
 }
 
+.teacher-card .only-teacher-card{
+    border-radius: 10px;
+    height: 319px;
+}
+
 .teacher-card:last-child {
     margin-right: 0px;
 }
@@ -1677,6 +1682,11 @@ footer .container {
     padding: 11px 25px;
     margin: 30px auto;
     cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #065911;
+    color: #daf3de;
 }
 
 .form input {
@@ -2005,6 +2015,11 @@ footer .container {
     align-items: center;
 }
 
+.mentor-box-main-info .only-mentor-card{
+    border-radius: 10px;
+    height: 350px;
+}
+
 #btn-for-back a {
     color: #486d13;
     font-size: 16px;
@@ -2187,4 +2202,8 @@ footer .container {
 .cost-blocks h4 {
     font-size: 20px;
     font-weight: 600;
+}
+
+.alert-box .alert{
+    color: red;
 }

@@ -6,7 +6,7 @@ const knex = require('knex');
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'localhost', // Вместо 'local', используйте 'localhost'
+        host: '127.0.0.1', // Вместо 'local', используйте 'localhost'
         user: 'postgres',
         password: 'zhan',
         database: 'registerofrm'
@@ -20,7 +20,7 @@ let initialPath = path.join(__dirname, "public");
 app.use(bodyParser.json());
 app.use(express.static(initialPath));
 
-app.get('/', (req, res) => {
+app.get('/profile', (req, res) => {
     res.sendFile(path.join(initialPath, "profile.html"));
 });
 
@@ -78,6 +78,6 @@ app.post('/login-user', (req, res) => {
         });
 });
 
-app.listen(5501, () => {
+app.listen(5501, (req, res) => {
     console.log('Listening on port 5501......');
 });
