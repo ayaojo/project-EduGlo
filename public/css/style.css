@@ -908,12 +908,36 @@ footer .container {
     padding: 13px 50px;
 }
 
+.sent-consult-form-notif{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(5px); /*filter for bg */
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .sent-consult-form-notif .container {
+    border: 1px solid black;
+    max-width: 400px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    border: 1px solid #86C232;
-    border-radius: 15px;
-    margin-bottom: 90px;
+    flex-direction: column;
+}
+
+.sent-consult-form-notif .container a{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #1A16F1;
+}
+
+.sent-consult-form-notif .container img{
+    height: 30px;
 }
 
 .feedback-consult-form {
@@ -922,6 +946,7 @@ footer .container {
     font-weight: 600;
     line-height: normal;
     margin-right: 15px;
+    text-align: center;
 }
 
 /* log in */
